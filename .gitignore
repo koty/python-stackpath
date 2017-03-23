@@ -1,0 +1,12 @@
+*.pyc
+src/*
+build/*
+dist/*
+netdnarws.egg-info/*
+.coverage
+junit-report.xml
+.ropeproject
+stackpath.egg-info
+
+.idea
+.python-version
