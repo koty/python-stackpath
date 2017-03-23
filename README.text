@@ -3,7 +3,7 @@
 ..
 
 
-StackPath REST Web Services Python Client
+StackPath REST Web Services Python Client. This package is forked from https://github.com/MaxCDN/python-maxcdn/
 ======================================
 
 
@@ -93,8 +93,8 @@ Development
 
 ::
 
-    git clone https://github.com/maxcdn/python-maxcdn.git
-    cd python-maxcdn
+    git clone https://github.com/koty/python-stackpath.git
+    cd python-stackpath
 
     make          # setup and test
     make setup    # installation w/ deps
@@ -112,14 +112,14 @@ Running examples:
 
 ::
 
-    git clone https://github.com/maxcdn/python-maxcdn.git
-    cd python-maxcdn
+    git clone https://github.com/koty/python-stackpath.git
+    cd python-stackpath
     make setup
 
-    export PYTHONPATH=./build:./maxcdn:$PYTHONPATH
+    export PYTHONPATH=./build:./stackpath
 
     ./examples/simple.py
     ./examples/report.py # [hourly|daily|monthly]
     ./examples/purge.py  # [zoneid]
 
-   :target: https://travis-ci.org/MaxCDN/python-maxcdn
+   :target: https://travis-ci.org/koty/python-stackpath

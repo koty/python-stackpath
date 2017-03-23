@@ -1,4 +1,4 @@
-StackPath REST Web Services Python Client
+StackPath REST Web Services Python Client. This package is forked from https://github.com/MaxCDN/python-maxcdn/
 
 Installation
 ------------
@@ -57,7 +57,7 @@ Every request can take an optional debug parameter.
 ```python
 api.get("account", debug=True)
 # Will output
-# Making GET request to http://rws.netdna.com/myalias/account.json
+# Making GET request to http://rws.netdna.com/myalias/account
 #{... API Returned Stuff ...}
 
 Every request can also take an optional debug_json parameter if you don't like the exception based errors.
@@ -85,8 +85,8 @@ Development
 -----------
 
 ```
-git clone https://github.com/maxcdn/python-maxcdn.git
-cd python-maxcdn
+git clone https://github.com/koty/python-stackpath.git
+cd python-stackpath
 
 make          # setup and test
 make setup    # installation w/ deps
@@ -104,11 +104,11 @@ Examples
 Running examples:
 
 ```
-git clone https://github.com/maxcdn/python-maxcdn.git
-cd python-maxcdn
+git clone https://github.com/koty/python-stackpath.git
+cd python-stackpath
 make setup
 
-export PYTHONPATH=./build:./maxcdn:$PYTHONPATH
+export PYTHONPATH=./build:./stackpath
 
 ./examples/simple.py
 ./examples/report.py # [hourly|daily|monthly]
